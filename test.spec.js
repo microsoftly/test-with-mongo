@@ -45,6 +45,15 @@ describe('test with mongo tests!', () => {
         return getDoc()
             .then((doc) => expect(doc).to.be.null);
     });
+
+    it('clean db actually cleans db', () => {
+        return insertDoc()
+            .then(getDoc)
+            .then((doc) => expect(doc).not.to.be.null)
+            .then(() => testWithMongo.dropDb(DB_NAME))
+            .then(getDoc)
+            .then((doc) => expect(doc).to.be.null);
+    })
 });
 
 
