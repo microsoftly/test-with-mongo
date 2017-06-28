@@ -36,7 +36,7 @@ describe('test with mongo tests!', () => {
     });
 
     beforeEach(() => {
-        const connectionString = testWithMongo.getConenctionString(DB_NAME);
+        const connectionString = testWithMongo.getConnectionString(DB_NAME);
         return MongoClient.connect(connectionString)
             .then((retDb) => db = retDb)
             .then(() => db.createCollection('testCollection'))
@@ -72,7 +72,7 @@ or
 const testWithMongo = new TestWithMongo(27017);
 ```
 
-### ``` testWithMongo.getConenctionString(dbName) ```
+### ``` testWithMongo.getConnectionString(dbName) ```
 returns the connection string for the db 'dbName'
 
 ### ``` testWithMongo.startMongoServer() ```

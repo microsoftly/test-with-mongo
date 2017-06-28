@@ -41,7 +41,7 @@ export class TestWithMongo {
      * @param dbName the name of the test db
      * @returns connectionString
      */
-    public getConenctionString(dbName: string): string {
+    public getConnectionString(dbName: string): string {
         return `mongodb://${host}:${this.port}/${dbName}`;
     }
 

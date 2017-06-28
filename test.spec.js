@@ -24,7 +24,7 @@ describe('test with mongo tests!', () => {
     });
 
     beforeEach(() => {
-        const connectionString = testWithMongo.getConenctionString(DB_NAME);
+        const connectionString = testWithMongo.getConnectionString(DB_NAME);
         return MongoClient.connect(connectionString)
             .then((retDb) => db = retDb)
             .then(() => db.createCollection('testCollection'))
