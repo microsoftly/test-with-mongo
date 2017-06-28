@@ -3,6 +3,18 @@
   "version": "0.0.1",
   "license": "MIT",
   "description": "Easy way to spin up and have a clean mongo db for testing",
+  "keywords": [
+    "mongo",
+    "test",
+    "unittest",
+    "unit test",
+    "unit-test",
+    "test",
+    "mock",
+    "db",
+    "integration",
+    "component"
+  ],
   "main": "dist/index.js",
   "repository": {
     "type": "git",
