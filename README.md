@@ -80,7 +80,7 @@ returns a promise that resolves when a new mongod is running
 
 #### comments
 * this will delete the contents of any db that may exist from a previous run
-  * ```testWithMongo.clean()``` is called tos tart
+  * ```testWithMongo.clean()``` is called to start
 * this should only be called once before any tests are run
 
 ### ``` testWithMongo.clean() ```
