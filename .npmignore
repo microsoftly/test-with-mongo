@@ -1,0 +1,4 @@
+**/*.ts
+**/*.spec*
+tslint.json
+tsconfig.json
