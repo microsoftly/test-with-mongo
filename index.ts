@@ -64,7 +64,7 @@ export class TestWithMongo {
      */
     public dropDb(dbName: string): Promise<any> {
         let db: Db;
-        const connectionString = this.getConenctionString(dbName);
+        const connectionString = this.getConnectionString(dbName);
 
         return MongoClient.connect(connectionString)
             .then((retDb: Db) => {
