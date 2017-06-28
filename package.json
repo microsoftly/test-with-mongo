@@ -1,6 +1,6 @@
 {
   "name": "test-with-mongo",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "description": "Easy way to spin up and have a clean mongo db for testing",
   "keywords": [
