@@ -4,6 +4,10 @@
   "license": "MIT",
   "description": "Easy way to spin up and have a clean mongo db for testing",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matts310/test-with-mongo.git"    
+  },
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build",
