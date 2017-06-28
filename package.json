@@ -1,6 +1,6 @@
 {
   "name": "test-with-mongo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "description": "Easy way to spin up and have a clean mongo db for testing",
   "keywords": [
@@ -16,6 +16,7 @@
     "component"
   ],
   "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git@github.com:matts310/test-with-mongo.git"    
