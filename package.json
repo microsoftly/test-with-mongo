@@ -1,6 +1,6 @@
 {
   "name": "test-with-mongo",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "description": "Easy way to spin up and have a clean mongo db for testing",
   "keywords": [
@@ -19,7 +19,7 @@
   "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git@github.com:matts310/test-with-mongo.git"    
+    "url": "git@github.com:matts310/test-with-mongo.git"
   },
   "scripts": {
     "build": "tsc",
