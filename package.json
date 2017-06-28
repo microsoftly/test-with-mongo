@@ -22,7 +22,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "clean": "rm -r ./dist",
+    "clean": "rm -rf dist",
     "rebuild": "npm run clean && npm run build",
     "prepublish": "npm run rebuild",
     "test": "mocha ./test.spec.js"
