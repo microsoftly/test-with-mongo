@@ -1,0 +1,28 @@
+{
+  "name": "test-with-mongo",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Easy way to spin up and have a clean mongo db for testing",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "mocha ./test.spec.js"
+  },
+  "dependencies": {
+    "mongodb": "^2.2.29",
+    "mongodb-prebuilt": "^6.3.3",
+    "rimraf": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.1",
+    "@types/mocha": "^2.2.41",
+    "@types/mongodb": "^2.2.6",
+    "@types/node": "^8.0.4",
+    "@types/rimraf": "^0.0.28",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "ts-node": "^3.1.0",
+    "typescript": "^2.4.1"
+  }
+}
