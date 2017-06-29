@@ -63,13 +63,13 @@ describe('test with mongo tests!', () => {
 
 ## Methods
 ### ``` constructor(port) ```
-port is optional
+port is optional, defaults to 27017
 ```javascript
 const testWithMongo = new TestWithMongo();
 ```
 or
 ```javascript
-const testWithMongo = new TestWithMongo(27017);
+const testWithMongo = new TestWithMongo(26016);
 ```
 
 ### ``` testWithMongo.getConnectionString(dbName) ```
