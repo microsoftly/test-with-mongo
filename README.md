@@ -63,13 +63,13 @@ describe('test with mongo tests!', () => {
 
 ## Methods
 ### ``` constructor(port) ```
-port is optional
+port is optional, defaults to 27017
 ```javascript
 const testWithMongo = new TestWithMongo();
 ```
 or
 ```javascript
-const testWithMongo = new TestWithMongo(27017);
+const testWithMongo = new TestWithMongo(26016);
 ```
 
 ### ``` testWithMongo.getConnectionString(dbName) ```
@@ -84,7 +84,7 @@ returns a promise that resolves when a new mongod is running
 * this should only be called once before any tests are run
 
 ### ``` testWithMongo.clean() ```
-returns a promise that resolves when a db created by test-with-mongo, if any, is deleted
+returns a promise that resolves when all mongo data created by test-with-mongo, if any, is deleted
 
 ### ``` testWithMongo.dropDb(dbName) ```
 returns a promise that resolves when the db with name dbName is dropped
